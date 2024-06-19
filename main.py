@@ -277,7 +277,7 @@ def page_biomasa():
     st.write("Definicion segun la RAE: Materia orgánica originada en un proceso biológico, espontáneo o provocado, utilizable como fuente de energía. ")
     st.write("https://dle.rae.es/biomasa")
     st.write("En el caso de la biomasa de cacao es la cantidad total de materia orgánica producida por las plantas de cacao en una determinada área, en este proyecto usaremos g/m². Incluye todas las partes de la planta, como hojas, ramas, raíces y frutos. Medir la biomasa de cacao es importante porque ayuda a entender el crecimiento y la salud de los cultivos, lo que puede mejorar la productividad y la sostenibilidad de las plantaciones de cacao.")
-    st.image("ImagenBiomasa.jpeg")
+    st.image("/workspaces/PrototipoTesis/ImagenBiomasa.jpeg")
 
 def page_modelo_simple():
     st.title("El modelo simple")
