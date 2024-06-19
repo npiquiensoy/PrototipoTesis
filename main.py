@@ -123,7 +123,7 @@ Para utilizar **CacaoBEST**, sigue estos pasos:
 4. **Estimación**: Ejecuta la estimación de biomasa y visualiza los resultados de manera interactiva.
 """)
     
-    st.image("/workspaces/PrototipoTesis/Logo_1.png")
+    #st.image("/workspaces/PrototipoTesis/Logo_1.png")
 
 # Estimation page with the original code
 def page_estimacion():
@@ -277,7 +277,7 @@ def page_biomasa():
     st.write("Definicion segun la RAE: Materia orgánica originada en un proceso biológico, espontáneo o provocado, utilizable como fuente de energía. ")
     st.write("https://dle.rae.es/biomasa")
     st.write("En el caso de la biomasa de cacao es la cantidad total de materia orgánica producida por las plantas de cacao en una determinada área, en este proyecto usaremos g/m². Incluye todas las partes de la planta, como hojas, ramas, raíces y frutos. Medir la biomasa de cacao es importante porque ayuda a entender el crecimiento y la salud de los cultivos, lo que puede mejorar la productividad y la sostenibilidad de las plantaciones de cacao.")
-    st.image("/workspaces/PrototipoTesis/ImagenBiomasa.jpeg")
+    #st.image("/workspaces/PrototipoTesis/ImagenBiomasa.jpeg")
 
 def page_modelo_simple():
     st.title("El modelo simple")
@@ -330,8 +330,8 @@ def page_calibracion():
     """)
 
     # Mostrar las imágenes cargadas
-    st.image("/workspaces/PrototipoTesis/R2, MAD y RMSE.png", caption='Resultados Numéricos de la Calibración')
-    st.image("/workspaces/PrototipoTesis/Grafica comparatiava de R2, MAD y RMSE.png", caption='Comparación de Modelos')
+   # st.image("/workspaces/PrototipoTesis/R2, MAD y RMSE.png", caption='Resultados Numéricos de la Calibración')
+    #st.image("/workspaces/PrototipoTesis/Grafica comparatiava de R2, MAD y RMSE.png", caption='Comparación de Modelos')
 
     st.markdown("""
     ## Conclusión del Modelo Recomendado
@@ -387,7 +387,7 @@ def page_acerca_de():
     Para más información, puedes contactarnos a través de nuestro correo electrónico: **jhernandez296@unab.edu.co**.
     """)
 
-    st.image("/workspaces/PrototipoTesis/Logo_1.png")
+    #st.image("/workspaces/PrototipoTesis/Logo_1.png")
 
 # Dictionary of pages
 pages = {
